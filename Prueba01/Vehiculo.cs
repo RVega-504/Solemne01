@@ -6,5 +6,9 @@ namespace Prueba01
 {
     public abstract class Vehiculo
     {
+        public void Ingresar(string componente)
+        {
+            
+        }
     }
 }

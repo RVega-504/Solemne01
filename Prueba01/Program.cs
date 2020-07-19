@@ -12,7 +12,7 @@ namespace Prueba01
             ArrayList array = new ArrayList();
             int opc;
 
-            Console.WriteLine("--usuario: ADMIN--");
+            Console.WriteLine("--Usuario: ADMIN--");
             Console.Write("Ingrese contraseña: ");
             string _pass = Console.ReadLine();
 
@@ -28,6 +28,7 @@ namespace Prueba01
                 Console.WriteLine("\n-----Ingrese una opcion-----");
                 Console.WriteLine("1: Ingresar Vehiculo");
                 Console.WriteLine("2: Imprimir Vehiculos");
+                Console.WriteLine("3: Limpiar Consola");
                 Console.WriteLine("0: Salir");
                 opc = Convert.ToInt32(Console.ReadLine());
 
@@ -58,6 +59,10 @@ namespace Prueba01
                             Console.WriteLine(array[i]);
                         }
                     }
+                }
+                else if (opc == 3)
+                {
+                    Console.Clear();
                 }
             } while (opc != 0);
         }

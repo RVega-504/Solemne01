@@ -25,7 +25,6 @@ namespace Prueba01
                     Console.Write("Ingrese un valor valido: ");
                     value = Convert.ToDouble(Console.ReadLine());
                 }
-
                 _estadoComponente = value;
             }
         }

@@ -10,7 +10,6 @@ namespace Prueba01
     }
     class Rueda : VehiculoComponentes
     {
-
         private TipoRecubrimiento _recubrimiento;
         private int _minDurometro;
         private int _maxDurometro;
